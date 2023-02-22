@@ -1,0 +1,39 @@
+.formRight {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .formRight {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .formRight {
+        height: auto;
+    }
+
+    .formRight {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .formRight {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .formRight {
+        width: 100%;
+    }
+}

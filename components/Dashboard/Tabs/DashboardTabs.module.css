@@ -1,0 +1,122 @@
+
+.tabWrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.userLogo {
+    margin-right: 10px;
+}
+
+.userProfile {
+    padding: 20px 12px;
+}
+
+.link {
+    display: inline-block;
+    display: flex;
+    width:100%;
+    padding: 10px;
+    margin: 0 auto;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+
+}
+
+.linkIcon {
+    flex-shrink: 0;
+    font-size: 30px;
+    margin-right: 10px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.link span {
+    display: inline-flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+.userLogo img {
+    width: 100px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.innerBtn {
+    font-size: 14px;
+}
+
+.buttonLink {
+    width: 80%;
+    margin: 15px auto 15px auto;
+}
+
+
+
+@media screen and (max-width:1199px) {
+    .innerBtn {
+        font-size: 12px;
+        padding: 7px 15px !important;
+    }
+    .link span{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .userLogo img {
+        width: 66px;
+    }
+    
+    .innerBtn {
+        padding: 7px 9px !important;
+        font-size: 11px;
+    }
+    
+    .userContent h4{
+        font-size: 16px;
+    }
+    
+    .link span {
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .linkIcon {
+        width: 23px;
+    }
+}
+@media screen and (max-width:800px){
+    .innerBtn {
+        padding: 4px 7px !important;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .userProfile {
+        padding: 14px 0px !important;
+    }
+
+    .buttonLink {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:575px){
+    .tabWrapper {
+        display: none;
+    }
+}
+
+
+

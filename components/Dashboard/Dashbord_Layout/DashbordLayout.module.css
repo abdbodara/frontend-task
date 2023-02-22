@@ -1,0 +1,9 @@
+.wrapper {
+    min-height: calc(100vh - 88.28px);
+    height: auto;
+    background-image: url(../../../public/images/pattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 90px;
+}

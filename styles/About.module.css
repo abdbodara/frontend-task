@@ -1,0 +1,164 @@
+
+.aboutWrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../public/images/verticlePattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.aboutHeader {
+    padding: 100px 0;
+}
+
+.aboutHeader h1 {
+    font-size: 46px;
+}
+
+.aboutMain1  {
+    padding-bottom: 100px;
+}
+
+.webpic {
+    width: 90%;
+    height: auto;
+}
+
+.iconImg {
+    width: 60px;
+    height: 60px;
+}
+
+.makersays {
+    font-size: 23px !important;
+    line-height: 1.6;
+}
+
+.iconText {
+    font-size: 22px;
+    font-style: italic;
+}
+
+.aboutContent h2 {
+    font-size: 2.5rem;
+}
+
+.aboutFooterContent {
+    padding: 100px 0;
+    height: 800px;
+}
+
+.mobTitle {
+    display: none;
+}
+
+@media screen and (max-width:1023px){
+    .makersays {
+        font-size: 16px !important;
+        line-height: 1.6;
+    }
+
+    .webpic {
+        width: 300px;
+        height: 100%;
+    }
+
+    .aboutHeader {
+        padding: 50px 0;
+    }
+}
+
+@media screen and (max-width:991px){
+    .aboutContent h2{
+        font-size: 2rem;
+        margin-bottom: 1rem !important;
+    }
+
+    .webpic {
+        width: 100%;
+    }
+
+    .iconImg {
+        width: 50px;
+        height: 50px;
+    }
+
+    .makersays {
+        margin-bottom: 1rem !important;
+    }
+    .aboutFooterContent {
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .deskTitle {
+        display: none;
+    }
+
+    .mobTitle {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin-left: 1rem !important;
+        margin-bottom: 0 !important;
+    }
+
+    .makersays {
+        margin-top: 1rem;
+        text-align: start;
+        font-size: 18px !important;
+    }
+
+    .endContent {
+        text-align: start;
+    }
+
+    .webpic {
+        width: 231px;
+        height: auto;
+    }
+
+    .aboutFooterContent {
+        padding: 50px 0;
+    }
+
+
+}
+
+
+@media screen and (max-width:425px){
+    .webpic {
+        width: 167px;
+        height: 100%;
+    }
+
+    .mobTitle {
+        font-size: 1rem;
+    }
+
+    .mobTitle span {
+        display: block;
+    }
+
+    .aboutMain1 {
+        padding-bottom: 50px;
+    }
+
+    .aboutHeader h1 {
+        font-size: 33px;
+    }
+
+    .iconImg {
+        width: 45px;
+        height: 45px;
+    }
+
+    .makersays {
+        font-size: 26px;
+    }
+}

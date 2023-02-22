@@ -1,0 +1,133 @@
+.innerBtn {
+    width: 100%;
+    border-radius: 0;
+    padding-block: 10px;
+    font-size: 1.1rem;
+}
+
+.forgotPassword {
+    display: flex;
+    justify-content: space-between;
+}
+
+.loginForm {
+    width: 75%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    padding: 50px;
+}
+
+.loginForm input {
+    margin-bottom: 25px;
+}
+
+.loginForm h2 {
+    padding-bottom: 50px;
+}
+
+.checkboxWrapper span {
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.forgotLink {
+    font-family: 'Avenir';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+    cursor: pointer;
+    color: #F08700;
+}
+
+.loginButton {
+    display: block !important;
+    margin-top: 50px;
+}
+
+.confirmBtn {
+    margin-top: 26px;
+}
+
+.bottomLink {
+    color: #F08700 !important;
+}
+
+
+.confirmBtn button {
+    padding-block: 8px !important;
+    font-size: 20px !important;
+}
+
+.inputFieldWrapper input{
+    margin-bottom: 26px;
+}
+
+.loginButton button{
+   font-size: 24px;
+}
+
+.bottomLinkWrapper a {
+    text-decoration: underline !important;
+    color: #000;
+}
+
+.forgotVerificationImg {
+    width: 218px;
+    height: auto;
+}
+
+@media screen and (max-width: 1199px) {
+    .loginForm {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .loginForm {
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .loginButton button {
+        font-size: 20px;
+    }
+
+    .loginButton {
+        margin-top: 35px;
+    }
+
+    .loginForm h2 {
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    .loginForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .loginForm {
+        width: 90%;
+        padding: 30px 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .loginForm {
+        width: 100%;
+        padding: 25px 20px;
+    }
+
+    .checkboxWrapper span {
+        padding-left: 5px;
+    }
+}
+

@@ -1,0 +1,280 @@
+.innerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:1199px) {
+    .innerBtn {
+        font-size: 12px;
+    }
+
+    .data {
+        font-size: 40px !important;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .innerBankData {
+        padding: 35px 13px !important;
+    }
+
+    .accountInfo div h4 {
+        font-size: 18px;
+    }
+
+    .amountInfo h2{
+        font-size: 45px !important;
+    }
+
+    .btnBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .amountInfoWrapper {
+        margin: 0px !important;
+    }
+}
+
+@media screen and (max-width:991px) and (min-width:768px) {
+    .wrapper {
+        max-width: 800px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .userLogo img {
+        width: 66px;
+    }
+    
+    .innerBtn {
+        padding: 7px 9px;
+    }
+
+    .innerBox data {
+        font-size: 30px;
+    }
+    .innerBox .desc {
+        font-size: 12px;
+    }
+
+    .accountInfo h4 {
+        font-size: 15px !important;
+    }
+
+    .data {
+        font-size: 35px !important;
+    }
+
+    .amountInfo h2 {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width:850px) and (min-width:768px){
+    .wrapper {
+        max-width: 790px;
+    }
+
+    .innerBox .desc {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .turnoverInfo {
+        padding: 24px !important;
+    }
+
+    .innerBankData {
+        margin: 25px 0 25px 0 !important;
+    }
+
+    .accountInfo {
+        border-right: none !important;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #F08700;
+    }
+
+    .balanceInfo {
+        padding-top: 10px;
+    }
+
+    .buttonLink {
+        width: 100%;
+    }
+
+    .link {
+        padding: 8px;
+    }
+
+    .link span {
+        font-size: 12px;
+    }
+
+    .linkIcon {
+        width: 18px;
+        margin-right: 6px;
+    }
+
+    .turnoverInfo h2 {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width:575px){
+    .wrapper {
+        padding-block: 25px !important;
+        padding-inline: 25px;
+    }
+    .innerBankData {
+        padding: 20px 12px !important;
+    }
+}
+
+
+
+@media screen and (max-width:425px){
+    .tableImg {
+        width: 25px !important;
+        height: auto;
+        margin-right: 5px;
+    }
+
+    .productName :nth-child(2){
+        font-size: 14px;
+    }
+    .productName :nth-child(1){
+        display: inline-block;
+    }
+
+    .productName {
+        min-width: 170px;
+    }
+
+    .innerBtn {
+        padding: 7px 11px !important;
+    }
+}
+
+.wrapper {
+    padding-block: 50px;
+}
+
+
+
+.data {
+    font-weight: 700;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.staticsInner .innerBox:nth-child(1) .data {
+    border-bottom: 5px solid #F08700;
+}
+
+.staticsInner .innerBox:nth-child(2) .data {
+    border-bottom: 5px solid #BDBDC1;
+}
+
+.staticsInner .innerBox:nth-child(3) .data {
+    border-bottom: 5px solid #25CED1;
+}
+
+.staticsInner .innerBox:nth-child(4) .data {
+    border-bottom: 5px solid #E3E2E2;
+}
+
+.desc {
+    font-weight: 700;
+}
+
+.bankDetail {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.accountInfo {
+    border-right: 2px solid #F08700;
+}
+
+.accountInfo>h3 span {
+    color: #BDBDC1;
+    font-size: 22px;
+    display: inline-flex;
+}
+
+.accountInfo p {
+    margin-bottom: 0;
+}
+
+.accountInfo p span {
+    font-weight: 700;
+}
+
+.accountInfo h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.amountInfo h2 {
+    font-size: 55px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.balanceInfo p {
+    margin-bottom: 0;
+}
+
+.amountInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innerBankData {
+    padding: 35px 30px;
+    margin: 25px 0 40px 0;
+}
+
+.amountInfoWrapper {
+    margin: 10px 10px 10px 30px;
+}
+
+.turnoverInfo {
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.tableImg {
+    width: 35px;
+    height: 35px;
+    margin-right: 5px;
+}
+
+.tableHeading {
+    border-bottom: #F08700;
+}
+
+.tableHeading :nth-child(2) {
+    width: 70%;
+}
+
+.setting {
+    flex-shrink: 0;
+}
+
+.settingIcon {
+    font-size: 20px;
+    color: #BDBDC1;
+}

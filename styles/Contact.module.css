@@ -1,0 +1,206 @@
+.contactWrapper {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../public/images/patern1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+}
+
+.aboutForm {
+    height: 100%;
+    box-shadow: -4px 4px 5px rgb(0 0 0 / 25%);
+    background-color: #fff;
+    padding-top: 125px;
+}
+
+.aboutLeft {
+    padding-top: 125px;
+}
+
+.contactWrapper > div {
+    height: 100%;
+}
+
+.inputField,
+.commentBox {
+    width: 100%;
+    border:1px solid #E3E2E2;
+    box-shadow: inset -2px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px !important;
+    padding: 10px;
+    outline: none;
+    /* margin: 19px 0; */
+}
+
+.inputField::placeholder,
+.commentBox::placeholder {
+    color: #B7B7B7;
+}
+
+.inputField:focus,
+.commentBox:focus {
+    outline: none;
+}
+
+.inputField:focus-visible,
+.commentBox:focus-visible {
+   outline: none;
+}
+
+.commentBox {
+    height: 130px;
+}
+
+.formWrapper {
+    padding-left: 50px;
+}
+
+.fieldRigntWrapper {
+    height: 100%;
+}
+
+.formWrapper h2 {
+    padding-left: 10px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.formInner {
+    height: auto;
+}
+
+.innerBtn {
+    width: 100%;
+    border-radius: 0;
+    padding-block: 10px;
+    font-size: 1.1rem;
+}
+
+.fieldset :not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.contactDetails img {
+    width: 30px;
+    height: 30px;
+}
+
+.formBottom {
+    padding-top: 100px;
+    padding-left: 62px;
+}
+
+.formBottom h4 {
+    font-size: 40px;
+    margin-right: 30px;
+}
+
+.contactDetails p {
+    padding-left: 20px;
+    font-family: 'Avenir';
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    letter-spacing: 0.05em;
+}
+
+.calendly {
+    width: 80%;
+    height: 250px;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 991px) {
+    .formWrapper {
+        padding-left: 10px;
+    }
+
+    .calendly {
+        height: 185px;
+    }
+
+    .formBottom {
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+
+    .formBottom h4 {
+        font-size: 35px;
+        margin-right: 30px;
+    }
+
+    .contactDetails p {
+        padding-left: 20px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .contactWrapper {
+        height: auto;
+    }
+    
+    .aboutLeftInner h4 {
+        margin-left: -35px;
+    }
+
+    .aboutLeftInner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .calendly {
+        width: 250px;
+    }
+
+    .fieldRigntWrapper {
+        margin-left: 0 !important;
+        margin-top: 40px;
+    }
+
+    .formBottom {
+        flex-direction: column !important;
+        text-align: center;
+        padding-left: 0;
+        padding-top: 100px;
+    }
+
+    .formBottom h4{
+       margin-bottom: 1rem;
+    }
+
+    .contactDetails {
+        justify-content: center;
+    }
+
+    .contactDetails p{
+        padding-left: 10px;
+    }
+
+    .aboutForm {
+        padding-block: 50px;
+    }
+
+    .aboutLeft {
+        padding-block: 50px;
+    }
+
+    .commentBox {
+        margin-bottom: 0 !important;
+    }
+
+}
+
+
+@media screen and (max-width: 425px) {
+    .formWrapper h2 {
+        font-size: 30px;
+    }
+}

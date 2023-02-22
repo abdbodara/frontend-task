@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+@font-face {
+  font-family: 'Avenir';
+  src: url(../public/fonts/AvenirLTStd-Book.otf);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+
+/* * {
+  border: 1px solid #000;
+} */
+.clr-org , .bg-clr-org {
+  color: #F08700;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.contactMain .container .row {
+  height: 100%;
+}
+
+.activeStep {
+  background-color: #F08700 !important;
+  color: #fff !important;
+}
+
+.completed {
+  background-color: #25CED1 !important;
+  color: #fff !important;
+}
+
+.active-tab {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+table tr th {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .contactMain .container {
+    max-width: 100%;
+  }
+}

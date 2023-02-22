@@ -1,0 +1,175 @@
+.cardLayout {
+    height: 100%;
+}
+
+.cardLayout>div {
+    height: 100%;
+}
+
+.innerBtn {
+    width: 100%;
+    border-radius: 0;
+    padding-block: 10px;
+    font-size: 1.1rem;
+}
+
+.logo {
+    width: 162px;
+    height: auto;
+}
+
+.laptopImg {
+    width: 300px;
+    height: auto;
+}
+
+.innerBtn {
+    background-color: #F08700;
+    border-radius: 0;
+    font-size: 25px;
+}
+
+.registerBtn {
+    display: block !important;
+    width: 90%;
+}
+
+.cardLayout h2 {
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.loadingCirclebox {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: auto;
+    width: 70%;
+    margin-top: 25px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.loadingCircle {
+    width: 100%;
+    aspect-ratio: 11;
+    background: radial-gradient(circle closest-side, #25CED1 90%, #0000) 0/calc(100%/8) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: d1 2.5s steps(8) infinite;
+}
+
+@keyframes d1 {
+    to {
+        clip-path: inset(0 0 0 0)
+    }
+}
+
+.imgContainer {
+    width: 80%;
+}
+
+.shield,
+.keyImg {
+    width: 130px;
+    height: auto;
+}
+
+
+
+@media screen and (max-width: 991px) {
+
+    .loginButton button {
+        font-size: 20px;
+    }
+
+    .loginButton {
+        margin-top: 35px;
+    }
+
+    .logo {
+        width: 148px;
+    }
+
+    .laptopImg {
+        width: 220px;
+    }
+
+    .cardLayout h2 {
+        font-size: 30px;
+    }
+
+    .innerBtn {
+        font-size: 22px;
+    }
+
+    .shield,
+    .keyImg {
+        width: 130px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .cardLayout>div {
+        padding-block: 50px;
+    }
+
+    .loginForm {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .registerBtn {
+        width: 75%;
+    }
+
+    .logo {
+        width: 130px;
+    }
+
+    .laptopImg {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .registerBtn {
+        width: 80%;
+    }
+
+    .cardLayout h2 {
+        font-size: 25px;
+    }
+
+    .shield,
+    .keyImg {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .innerBtn {
+        font-size: 20px;
+    }
+
+    .checkboxWrapper span {
+        padding-left: 5px;
+    }
+
+    .laptopImg {
+        width: 190px;
+    }
+
+    .shield,
+    .keyImg {
+        width: 100px;
+        height: auto;
+    }
+}

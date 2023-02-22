@@ -1,0 +1,43 @@
+.loginWrapper {
+    width: 100%;
+    min-height: calc(100vh - 88.28px);
+    height: auto;
+    padding-top: 100px;
+    background-image: url(../../public/images/geometric.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width: 1299px) {
+    .loginWrapper {
+        min-height: calc(100vh - 90px);
+    }
+}
+@media screen and (max-width: 991px) {
+    .loginWrapper {
+        min-height: calc(100vh - 110.11px);
+    }
+}
+@media screen and (max-width: 767px) {
+    .loginWrapper {
+        min-height:calc(100vh - 105.31px);
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .loginWrapper {
+        min-height: calc(100vh - 141.72px);
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .loginWrapper {
+        min-height: calc(100vh - 165.72px);
+        height: auto;
+    }
+}
+
+

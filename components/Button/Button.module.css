@@ -1,0 +1,16 @@
+.btnLight {
+    background-color: #25CED1;
+    border-radius: 40px;
+    color: #fff;
+    padding: 7px 24px;
+    border: none;
+    font-weight: 600;
+}
+
+.btnLight:hover {
+    background-color: #F08700;
+}
+
+.buttonWrapper {
+    display: inline-block;
+}

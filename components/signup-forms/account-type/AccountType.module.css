@@ -1,0 +1,192 @@
+.formLayout {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.formLayout h2 {
+    margin: 25px 0 30px 0;
+}
+
+.checkboxes {
+    height: auto;
+}
+
+
+.wrapper {
+    height: 100%;
+}
+
+.box {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    min-height: 400px;
+    width: 350px;
+}
+
+.box p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+.fillCircle {
+    font-size: 30px;
+    color: #25CED1;
+    margin-right: 20px;
+    margin-top: 3px;
+    flex-shrink: 0;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.detail {
+    font-weight: 800;
+    font-family: 'Avenir';
+    font-size: 20px;
+    max-width: 200px;
+}
+
+
+
+.features {
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.features :last-child {
+    margin: 0;
+}
+
+.innerBtn {
+    width: 100%;
+    border-radius: 0;
+    padding-block: 10px;
+    font-size: 1.2rem;
+    background-color: #F08700;
+}
+
+.btnOrg {
+    width: 400px;
+    display: block !important;
+    margin: 50px auto 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+    .wrapper {
+        max-width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        min-height: 350px;
+        height: 100%;
+    }
+
+    .detail {
+        font-size: 16px;
+    }
+
+    .fillCircle {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    
+    .detail {
+        font-size: 18px;
+    }
+
+    .fillCircle {
+        font-size: 26px;
+    }
+
+    .item {
+        margin-bottom: 15px;
+    }
+
+    .features {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .box {
+        padding: 17px;
+        min-height: 300px;
+    }
+
+    
+    .box p {
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+
+    .fillCircle {
+        font-size: 18px;
+    }
+    
+    .features {
+        padding: 12px 0;
+    }
+    
+    
+    .detail {
+        font-size: 14px;
+    }
+    
+    .btnOrg {
+        margin-top: 33px;
+        width: 320px;
+    }
+    
+    .item {
+        margin-bottom: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+        padding: 14px;
+        min-height: 275px;
+    }
+
+    .box h3 {
+        font-size: 20px;
+    }
+
+    .detail {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .btnOrg {
+        width: 290px;
+    }
+
+    .box {
+        padding: 8px;
+        min-height: 220px;
+    }
+
+    .box p {
+        font-size: 10px;
+    }
+
+    .detail {
+        font-size: 10px;
+    }
+
+    .formLayout {
+        margin-top: 25px;
+    }
+}
